@@ -1,0 +1,30 @@
+.slider {
+  height: 200px;
+}
+.combo {
+  padding: 2rem 0rem;  
+}
+.combo div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.combo img {
+  width: 95px;
+  height: 85px;
+  object-fit: contain;
+}
+.combo p {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  font-size: 11px;
+  color: var(--black);
+  text-align: center;
+}
+.active p {
+  color: var(--red);
+}
+.active img {
+  transform: scale(1.5);
+}
