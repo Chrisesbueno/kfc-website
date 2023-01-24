@@ -43,3 +43,14 @@ const Footer = () => {
 };
 
 export default Footer;
+=======
+import styles from '../styles/Footer.module.css'
+
+const Footer = () => {
+  return (
+    <div>Footer</div>
+  )
+}
+
+export default Footer
+>>>>>>> 1f0e7dd94edd965ec1610ff49ee8ba34165ba9ab
