@@ -1,0 +1,32 @@
+.strip {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    cursor: pointer;
+}
+.whatsapp, .phone {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+}
+.whatsapp i, .phone i {
+    font-size: 40px;
+}
+.whatsapp p, .phone p {
+    font-style: normal;
+font-weight: 600;
+font-size: 20px;
+}
+.social {
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+.social i {
+    font-size: 36px;    
+    cursor: pointer;
+}

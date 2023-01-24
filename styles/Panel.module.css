@@ -1,0 +1,27 @@
+.panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.panel button {
+    color: white;
+    background-color: var(--red);
+    font-family: var(--font);
+    font-weight: 600;
+    padding: 0.5rem 0.7rem;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.panel input {
+    border: none;
+    color: var(--black);
+    text-align: center;
+    font-family: var(--font);
+    font-weight: 600;
+    padding: 0.5rem;
+    font-size: 16px;
+    width: 100px;
+    outline: none;
+}

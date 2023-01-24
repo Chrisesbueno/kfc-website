@@ -1,0 +1,12 @@
+export { default as Navbar } from './Navbar';
+export { default as Footer } from './Footer';
+export { default as Combo } from './Combo';
+export { default as Slider } from './Slider';
+export { default as Offers } from './Offers';
+export { default as Screens } from './Screens';
+export { default as Card } from './Card';
+export { default as TwitterCard } from './TwitterCard';
+export { default as YoutubeCard } from './YoutubeCard';
+export { default as Social } from './Social';
+export { default as Strip } from './Strip';
+export { default as Panel } from './Panel';

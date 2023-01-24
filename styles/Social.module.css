@@ -1,0 +1,33 @@
+.social {
+  padding: 5rem 0 3rem;
+  display: flex;
+}
+.socialback {
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  width: 100vw;
+  height: 650px;
+  object-fit: cover;
+}
+
+.left,
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.social h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 77px;
+  color:  #fcd4c4ef ;
+  margin-bottom: -1rem;
+}
+.video iframe {
+  width: 100%;
+  border-radius: 13px;
+  height: 400px;
+}

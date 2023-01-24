@@ -1,0 +1,122 @@
+.card {
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  flex: 1;
+  padding: 1rem;
+  height: 180px;
+  width: 310px;
+}
+
+.left h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  color: var(--black);
+}
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.left p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--gray);
+}
+.normal {
+  width: 125px;
+  height: 36px;
+  background-color: var(--red-soft);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.normal p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  color: white;
+}
+
+.right {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.back {
+  background-color: var(--yellow);
+  border-radius: 50%;
+  width: 134px;
+  height: 134px;
+  position: relative;
+}
+.image {
+  width: 130px;
+  height: 140px;
+  object-fit: cover;
+  position: absolute;
+  left: 0rem;
+}
+.tag {
+  position: absolute;
+  right: 0;
+}
+.state .card {
+  background-color: var(--red-soft);
+}
+.state .left h2,
+.state .left p {
+  color: white;
+}
+
+.state .normal {
+  background-color: var(--yellow);
+}
+.state .normal p {
+  color: var(--black);
+}
+.state .back {
+  background-color: white;
+}
+.down .image {
+  width: 270px;
+  height: 240px;
+  object-fit: cover;
+  position: absolute;
+  left: -5rem;
+  top: -3rem;
+}
+.down .back {
+    width: 174px;
+    height: 174px;
+}
+.down {
+  flex: 1;
+  display: flex;
+  position: relative;
+  right: -4rem;
+}
+.rotate {
+  position: relative;
+}
+.rotate p {
+    font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 17px;
+color: var(--red-soft);
+}
+.rotate p span {
+  color: var(--red-soft);
+  font-weight: 900;
+  font-size: 30px;
+  position: absolute;
+  transform: rotate(-12.16deg);
+  top: -1.2rem;
+  left: 1rem;
+}

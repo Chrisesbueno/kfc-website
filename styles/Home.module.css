@@ -1,0 +1,16 @@
+.main {
+  background-color: var(--red);
+}
+.screens {
+  background-color: var(--yellow);
+}
+.social {
+  background-color: #fcecdc;
+}
+.strip {
+  background-color: var(--red);
+}
+.footer {
+  background-color: var(--black);
+  overflow: hidden;
+}
